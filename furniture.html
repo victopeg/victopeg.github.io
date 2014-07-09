@@ -166,6 +166,37 @@
                    
 				</div> <!-- row -->
 				
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+					    <h4>CD tower - $6 </h4>
+					    <p> CD tower in a cherry wood finish. House your collection of CDs or be creative and use it as a stand to add
+					    	some height and showcase a plant or favourite art piece. 43" in height. </p>
+					        
+					        
+					     <br>
+					        
+					        <div id="innode2" class="innode2">
+                            	<a data-gallery="blueimp-gallery-tra" title="CD tower" href="files/cdtower.jpg"><img src="files/cdtower.jpg" alt="CD tower"></a>
+					          
+                              
+                            </div>
+                            
+                            <div id="blueimp-gallery-tra" class="blueimp-gallery blueimp-gallery-controls">
+    							<div class="slides"></div>
+    							<h3 class="title"></h3>
+    							<a class="prev">‹</a>
+    							<a class="next">›</a>
+    							<a class="close">×</a>
+    							<a class="play-pause"></a>
+    							<ol class="indicator"></ol>
+							</div>
+
+							<br>   
+                                              
+                   </div> <!-- col-sm-6 col-sm-offset-3 -->
+                   
+				</div> <!-- row -->
+				
 			</div> <!-- container -->
 			
 										
@@ -228,6 +259,28 @@
         		options = {index: link, event: event},
         		tracksinnode = this.getElementsByTagName('a');
     		blueimp.Gallery(tracksinnode, options);
+		};
+		</script>
+		
+		<script>
+		document.getElementById('innode').onclick = function (event) {
+    		event = event || window.event;
+    		var target = event.target || event.srcElement,
+        		link = target.src ? target.parentNode : target,
+        		options = {index: link, event: event},
+        		innode = this.getElementsByTagName('a');
+    		blueimp.Gallery(innode, options);
+		};
+		</script>
+		
+		<script>
+		document.getElementById('innode2').onclick = function (event) {
+    		event = event || window.event;
+    		var target = event.target || event.srcElement,
+        		link = target.src ? target.parentNode : target,
+        		options = {index: link, event: event},
+        		innode2 = this.getElementsByTagName('a');
+    		blueimp.Gallery(innode2, options);
 		};
 		</script>
 		
