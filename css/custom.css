@@ -17,7 +17,7 @@
 .navbar-default {
   z-index: 1000;  
   margin-bottom: 0px;
-  background: #fc9272;
+  background: #339933;
   border: 0px solid transparent;
   border-radius: 0;
 }
@@ -29,8 +29,8 @@
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #fc9272;
-  border-bottom-color: #fc9272;
+  border-top-color: #339933;
+  border-bottom-color: #339933;
 }
 
 .navbar-default .navbar-nav > li> a {
@@ -43,12 +43,12 @@
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu >li > a {
-  background-color: #fc9272;
+  background-color: #339933;
   color: #ffffff;
  }
  
 .navbar-default .navbar-nav .open .dropdown-menu >li > a:hover {
-  color: #fc9272;
+  color: #339933;
   background-color: #ffffff;
  } 
   
@@ -59,7 +59,7 @@
   
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   background-color: #FFFFFF;
-  color: #fc9272;
+  color: #339933;
 }
 
 .navbar-default .navbar-toggle {
@@ -75,7 +75,7 @@
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar{
-  background-color: #fc9272;	
+  background-color: #339933;	
 }
 
 
@@ -85,7 +85,7 @@
 	
 
 .dropdown-menu {
-	background-color: #fc9272;
+	background-color: #339933;
 	color: #FFFFFF;
 	border-color: transparent;
 	border-style: none;
@@ -96,30 +96,30 @@
 
 .dropdown-toggle .open .dropdown-toggle {
 	color: #ffffff !important;
-	background: #fc9272 !important;
+	background: #339933 !important;
 }
 
 
 .dropdown-toggle:active, .open .dropdown-toggle {
 	color: #FFFFFF !important;
-	background: #fc9272 !important;
+	background: #339933 !important;
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     background-color: #ffffff !important;
-    color: #fc9272;
+    color: #339933;
     outline: 0 none;
     text-decoration: none;
 }
 
 .dropdown-menu > li > a:active {
   	background-color: #ffffff;
-  	color: #fc9272
+  	color: #339933
 }
 
 .dropdown-menu > li > a:hover {
   	background-color: #ffffff;
-  	color: #fc9272
+  	color: #339933
 }
 
 .jumbotron {
