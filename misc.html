@@ -61,6 +61,36 @@
 		
 		
 	<div class="container soundanchoring">
+             	
+             	<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+					    <h4>27-inch Panasonic TV - $20</h4>
+					    <p> 27-inch tube TV is in perfect working order. Comes with universal remote and original instructions manual. 
+					    	In excellent condition with no dents or scratches. Selling for $20.</p>
+					    <p> Front dimensions: 29.5" wide, 23.5" high. </p>	
+					        				    
+					     <br>
+					        
+					        <div id="innode3" class="innode3">
+                            	<a data-gallery="blueimp-gallery-i3" title="TV - picture 1" href="files/tv1.jpg"><img src="files/tv1thumb.jpg" alt="TV - picture 1"></a> <a data-gallery="blueimp-gallery-i3" title="TV - picture 2" href="files/tv2.jpg"><img src="files/tv2thumb.jpg" alt="TV - picture2"></a>
+					                                    
+                            </div>
+                            
+                            <div id="blueimp-gallery-i3" class="blueimp-gallery blueimp-gallery-controls">
+    							<div class="slides"></div>
+    							<h3 class="title"></h3>
+    							<a class="prev">‹</a>
+    							<a class="next">›</a>
+    							<a class="close">×</a>
+    							<a class="play-pause"></a>
+    							<ol class="indicator"></ol>
+							</div>
+
+							<br>   
+                                              
+                   </div> <!-- col-sm-6 col-sm-offset-3 -->  
+                </div>   
+             	
              				
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1">
@@ -255,6 +285,17 @@
         		options = {index: link, event: event},
         		innode2 = this.getElementsByTagName('a');
     		blueimp.Gallery(innode2, options);
+		};
+		</script>
+		
+		<script>
+		document.getElementById('innode3').onclick = function (event) {
+    		event = event || window.event;
+    		var target = event.target || event.srcElement,
+        		link = target.src ? target.parentNode : target,
+        		options = {index: link, event: event},
+        		innode3 = this.getElementsByTagName('a');
+    		blueimp.Gallery(innode3, options);
 		};
 		</script>
 		
