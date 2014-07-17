@@ -131,6 +131,38 @@
 							
 								</div>					                   
 				</div> <!-- row -->	 
+				
+				
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+					    <h4>Tall Ribbed Glass Jar with Lid - $4</h4>
+					    <p>This handy jar with attached rubber sealed lid is food safe and great for storing rice, pasta, sugar
+					    	, flour, etc. In excellent condition. No chips.</p>
+					    <p>Dimensions: Approx. 4" in diameter, 9.5" high. </p>
+					    
+					        
+					        <br>
+					        
+					        <div id="anchor" class="anchor">
+                            	<a data-gallery="blueimp-gallery-aSOM1" title="Glass jar" href="files/glassjar.jpg"><img src="files/glassjarthumb.jpg" alt="Glass jar"></a>  
+                              
+                              
+                            </div>
+                            
+                            <div id="blueimp-gallery-aSOM1" class="blueimp-gallery blueimp-gallery-controls">
+    							<div class="slides"></div>
+    							<h3 class="title"></h3>
+    							<a class="prev">‹</a>
+    							<a class="next">›</a>
+    							<a class="close">×</a>
+    							<a class="play-pause"></a>
+    							<ol class="indicator"></ol>
+							</div>
+
+							<br>
+							
+								</div>					                   
+				</div> <!-- row -->	 
 							
 												        					        					 
 					
@@ -285,6 +317,18 @@
     		blueimp.Gallery(innode2, options);
 		};
 		</script>
+		
+		<script>
+		document.getElementById('anchor').onclick = function (event) {
+    		event = event || window.event;
+    		var target = event.target || event.srcElement,
+        		link = target.src ? target.parentNode : target,
+        		options = {index: link, event: event},
+        		anchor = this.getElementsByTagName('a');
+    		blueimp.Gallery(anchor, options);
+		};
+		</script>
+		
 		
 				
 		
